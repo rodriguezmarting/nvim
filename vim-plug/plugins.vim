@@ -86,6 +86,13 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Plug 'jbgutierrez/vim-better-comments'
     " Echo doc
     " Plug 'Shougo/echodoc.vim'
+    " Clojure syntax
+    Plug 'guns/vim-clojure-static'
+    " Sexp manipulation
+    Plug 'guns/vim-sexp'
+    " Clojure REPL
+    Plug 'tpope/vim-fireplace'
+
   endif
 
 
@@ -95,4 +102,4 @@ call plug#end()
 autocmd VimEnter *
   \  if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
   \|   PlugInstall --sync | q
-  \| endif
+  \| endivim-clojure-staticf

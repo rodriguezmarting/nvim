@@ -22,7 +22,6 @@ function! StartifyEntryFormat()
     endfunction
 
 let g:startify_bookmarks = [
-            \ { 'o': '~/.org/agenda.org' },
             \ { 'i': '~/.config/nvim/init.vim' },
             \ { 'f': '~/.config/fish/config.fish' },
             \ ]
