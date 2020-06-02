@@ -32,10 +32,10 @@ else
 
 
   " Better window navigation
-  nnoremap <C-h> <C-w>h
-  nnoremap <C-j> <C-w>j
-  nnoremap <C-k> <C-w>k
-  nnoremap <C-l> <C-w>l
+  nnoremap <Space>h <C-w>h
+  nnoremap <Space>j <C-w>j
+  nnoremap <Space>k <C-w>k
+  nnoremap <Space>l <C-w>l
 
   " Use alt + hjkl to resize windows
   nnoremap <silent> <M-j>    :resize -2<CR>

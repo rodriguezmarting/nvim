@@ -65,12 +65,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'junegunn/goyo.vim'
   " Making stuff
   Plug 'neomake/neomake'
-  " Snippets TODO fix TAB hijack
-  " Plug 'SirVer/ultisnips'
-  " Better Comments
-  " Plug 'jbgutierrez/vim-better-comments'
-  " Echo doc
-  " Plug 'Shougo/echodoc.vim'
+  " Snippets
+  Plug 'honza/vim-snippets'
+  " Clojure repl
+  Plug 'Olical/conjure', {'tag': 'v3.4.0'}
+  " Flutter hot-reload
+  Plug 'reisub0/hot-reload.vim'
 
 call plug#end()
 
