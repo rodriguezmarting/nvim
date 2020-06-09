@@ -13,7 +13,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Surround
   Plug 'tpope/vim-surround'
   " Better Comments
-  Plug 'preservim/nerdcommenter'
+  Plug 'tpope/vim-commentary'
   " Have the file system follow you around
   Plug 'airblade/vim-rooter'
   " auto set indent settings
