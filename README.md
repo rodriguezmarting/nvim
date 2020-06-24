@@ -1,4 +1,4 @@
-# Nvim Mach 2
+# Nvim Config
 
 ![Nvim Mach 2 pic](./utils/images/nvim.png)
 
@@ -51,18 +51,6 @@ pip install pynvim
 npm i -g neovim
 ```
 
-## Install Neovim remote
-
-```
-pip install neovim-remote
-```
-
-This will install `nvr` to `~/.local/bin` so you will need to add the following to your `bashrc` or `zshrc`
-
-```
-export PATH=$HOME/.local/bin:$PATH
-```
-
 ## Install clipboard support
 
 - On mac pbcopy should be builtin
@@ -79,18 +67,6 @@ export PATH=$HOME/.local/bin:$PATH
   sudo pacman -S xsel
   ```
 
-## (Optional) Install python & node support using virtual environments
-
-Make sure to add these paths somewhere in your config
-
-```
-let g:python3_host_prog = expand("<path to python with pynvim installed>")
-let g:python3_host_prog = expand("~/.miniconda/envs/neovim/bin/python3.8") " <- example
-
-let g:node_host_prog = expand("<path to node with neovim installed>")
-let g:node_host_prog = expand("~/.nvm/versions/node/v12.16.1/bin/neovim-node-host") " <- example
-```
-
 ## List of programs you should install
 
 - ranger
@@ -99,10 +75,6 @@ let g:node_host_prog = expand("~/.nvm/versions/node/v12.16.1/bin/neovim-node-hos
 - silver_searcher
 - fd
 - universal-ctags
-- lazy git
-- lazy docker
-
-Explanations and installation instruction can be found on my blog
 
 ## Language Servers
 
@@ -126,20 +98,14 @@ Example:
     }
   }
   ```
+  
+## Added features
 
-## TODO
-
-- People asked about vimwiki I kinda hate it but maybe I'll add it
-- float term lazy git
-- spectre, or async task/run
-- setup custom paths
-- install script envsubst is your friend
-- add better whitespace plugin and a toggle, video about clean code maybe
-- snippets (coc snippets)
-- git messenger
-- neovide
-- setup global coc extensions to auto install
-
-## VSCode integration
-
-We will be integrating with VSCode using [this](https://github.com/asvetliakov/vscode-neovim)
+- Git bindings with leader + g, inspired on magit (Emacs)
+- Navigation between splits inside which key
+- Increased time window for the keystrokes
+- Vim surround installed and configured
+- Vim commentary installed and configured
+- Removed all remote configurations
+- Flutter language server added
+- Clojure tools added

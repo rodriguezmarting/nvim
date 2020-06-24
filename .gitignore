@@ -6,3 +6,4 @@ nodepath.vim
 autoload/plugged/*
 session
 general/paths.vim
+.DS_Store
