@@ -18,8 +18,7 @@ inoremap <expr> <c-k> ("\<C-p>")
 inoremap <C-f> <Right>
 inoremap <C-b> <Left>
 " Searching in whole proyect (requires Ripgrep)
-map <C-F> :Rg<CR>
-map! <C-F> <Esc>:Rg<CR>
+nnoremap <C-F> :Rg<CR>
 
 " TAB in general mode will move to text buffer
 nnoremap <silent> <TAB> :bnext<CR>
