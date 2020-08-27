@@ -20,6 +20,8 @@ set smarttab                            " Makes tabbing smarter will realize you
 set expandtab                           " Converts tabs to spaces
 set smartindent                         " Makes indenting smart
 set autoindent                          " Good auto indent
+set ignorecase
+set smartcase                           " Search insensitive until a capital letter is typed            
 set laststatus=2                        " Always display the status line
 set number                              " Line numbers
 set relativenumber
