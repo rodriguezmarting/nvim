@@ -47,6 +47,17 @@ let g:which_key_map['z'] = [ 'Goyo'                       , 'zen' ]
 
 " Group mappings
 
+" a is for actions (mostly CoC actions)
+let g:which_key_map.a = {
+      \ 'name' : '+actions' ,
+      \ 'a' : [':CocAction'                  , 'Show Actions']      ,
+      \ 'd' : ['<Plug>(coc-definition)'      , 'Go definition']     ,
+      \ 'i' : ['<Plug>(coc-implementation)'  , 'Go implementation'] ,
+      \ 'n' : ['<Plug>(coc-rename)'          , 'Rename symbol']     ,
+      \ 'r' : ['<Plug>(coc-references)'      , 'Find references']   ,
+      \ 't' : ['<Plug>(coc-type-definition)' , 'Type definition']   ,
+      \ }
+
 " b is for buffer
 let g:which_key_map.b = {
       \ 'name' : '+buffer' ,

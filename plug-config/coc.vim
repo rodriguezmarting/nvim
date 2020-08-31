@@ -65,7 +65,7 @@ endfunction
 autocmd CursorHold * silent call CocActionAsync('highlight')
 
 " Symbol renaming.
-" nmap <leader>rn <Plug>(coc-rename)
+nmap <leader>lr <Plug>(coc-rename)
 
 augroup mygroup
   autocmd!
