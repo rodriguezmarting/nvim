@@ -45,3 +45,5 @@ nnoremap <silent> <M-k>    :resize +2<CR>
 nnoremap <silent> <M-h>    :vertical resize -2<CR>
 nnoremap <silent> <M-l>    :vertical resize +2<CR>
 
+" Emmet leader key
+let g:user_emmet_leader_key='<M-e>'

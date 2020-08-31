@@ -71,6 +71,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'Olical/conjure', {'tag': 'v3.4.0'}
   " Flutter hot-reload
   Plug 'reisub0/hot-reload.vim'
+  " Emmet to speed up markup
+  Plug 'mattn/emmet-vim'
 
 call plug#end()
 
