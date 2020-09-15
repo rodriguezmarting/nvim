@@ -23,12 +23,17 @@
     "css",
     "markdown",
     "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
     "graphql",
     "html",
     "yaml",
     "json",
     "python"
   ],
+  "tsserver.formatOnType": true,
+  "coc.preferences.formatOnType": true,
   "coc.preferences.hoverTarget": "float",
   // python config
   "python.linting.enabled": true,
@@ -41,29 +46,25 @@
   "explorer.previewAction.onHover": false,
   "explorer.icon.enableVimDevicons": false,
   "explorer.keyMappings": {
-    "<cr>": [
-      "expandable?",
-      "expand",
-      "open"
-    ],
+    "<cr>": ["expandable?", "expand", "open"],
     "v": "open:vsplit"
   },
   "languageserver": {
     "bash": {
       "command": "bash-language-server",
-      "args": [
-        "start"
-      ],
-      "filetypes": [
-        "sh"
-      ],
-      "ignoredRootPaths": [
-        "~"
-      ]
+      "args": ["start"],
+      "filetypes": ["sh"],
+      "ignoredRootPaths": ["~"]
     }
-  }
-  // TODO language servers
-  // TODO g:coc_global_extensions
-  // TODO b:coc_suggest_disable=1 GOYO
-  // TODO add to paths.vim g:coc_node_path
+  },
+  // eslint config
+  "eslint.autoFixOnSave": true,
+  "eslint.filetypes": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  //prettier config
+  "prettier.disableSuccessMessage": true
 }

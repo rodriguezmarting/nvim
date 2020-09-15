@@ -1,25 +1,29 @@
-  " let g:coc_global_extensions = [
-  "   \ 'coc-snippets',
-  "   \ 'coc-actions',
-  "   \ 'coc-emmet',
-  "   \ 'coc-pairs',
-  "   \ 'coc-tsserver',
-  "   \ 'coc-floaterm',
-  "   \ 'coc-html',
-  "   \ 'coc-css',
-  "   \ 'coc-cssmodules',
-  "   \ 'coc-yaml',
-  "   \ 'coc-python',
-  "   \ 'coc-explorer',
-  "   \ 'coc-svg',
-  "   \ 'coc-prettier',
-  "   \ 'coc-vimlsp',
-  "   \ 'coc-flutter',
-  "   \ 'coc-xml',
-  "   \ 'coc-yank',
-  "   \ 'coc-json',
-  "   \ 'coc-vimtex',
-  "   \ ]
+let g:coc_global_extensions = [
+  \ 'coc-snippets',
+  \ 'coc-actions',
+  \ 'coc-emmet',
+  \ 'coc-pairs',
+  \ 'coc-tsserver',
+  \ 'coc-html',
+  \ 'coc-css',
+  \ 'coc-cssmodules',
+  \ 'coc-yaml',
+  \ 'coc-explorer',
+  \ 'coc-svg',
+  \ 'coc-prettier',
+  \ 'coc-vimlsp',
+  \ 'coc-flutter',
+  \ 'coc-json',
+  \ 'coc-vimtex',
+  \ ]
+
+if isdirectory('./node_modules') && isdirectory('./node_modules/prettier')
+  let g:coc_global_extensions += ['coc-prettier']
+endif
+
+if isdirectory('./node_modules') && isdirectory('./node_modules/eslint')
+  let g:coc_global_extensions += ['coc-eslint']
+endif
 
 " Use tab for trigger completion with characters ahead and navigate.
 inoremap <silent><expr> <TAB>
