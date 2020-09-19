@@ -32,8 +32,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'jiangmiao/auto-pairs'
   " Closetags
   Plug 'alvan/vim-closetag'
-  " Themes
-  Plug 'christianchiarulli/onedark.vim'
   " Intellisense
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
   " Status Line
@@ -73,6 +71,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'reisub0/hot-reload.vim'
   " Emmet to speed up markup
   Plug 'mattn/emmet-vim'
+  " Themes
+  Plug 'joshdick/onedark.vim'
 
 call plug#end()
 
