@@ -27,3 +27,18 @@
 snippet cl 
 console.log(${1:text});
 endsnippet
+
+snippet rfct
+import React from "react"
+
+interface Props {
+}
+
+const ${1:ComponentName}: React.FC<Props> = () => {
+	return (
+		<div>$1</div>
+	);
+}
+
+export default $1;
+endsnippet
