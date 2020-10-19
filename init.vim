@@ -27,4 +27,5 @@ source $HOME/.config/nvim/plug-config/closetags.vim
 source $HOME/.config/nvim/plug-config/floaterm.vim
 source $HOME/.config/nvim/plug-config/vim-clojure-static.vim
 source $HOME/.config/nvim/plug-config/start-screen.vim
+source $HOME/.config/nvim/plug-config/multiple-cursors.vim
 luafile $HOME/.config/nvim/lua/plug-colorizer.lua

@@ -73,6 +73,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'mattn/emmet-vim'
   " Themes
   Plug 'joshdick/onedark.vim'
+  " Multiple cursor
+  Plug 'terryma/vim-multiple-cursors'
 
 call plug#end()
 
