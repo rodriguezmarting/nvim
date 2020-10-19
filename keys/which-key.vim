@@ -40,7 +40,6 @@ let g:which_key_map['l'] = [ '<C-w>l'                     , 'navigate right']
 let g:which_key_map['q'] = [ 'q'                          , 'quit' ]
 let g:which_key_map['r'] = [ ':RnvimrToggle'              , 'ranger' ]
 let g:which_key_map['S'] = [ ':SSave'                     , 'save session' ]
-let g:which_key_map['T'] = [ ':Rg'                        , 'search text' ]
 let g:which_key_map['v'] = [ '<C-W>v'                     , 'split right']
 let g:which_key_map['w'] = [ 'w'                          , 'write' ]
 let g:which_key_map['z'] = [ 'Goyo'                       , 'zen' ]
@@ -170,8 +169,8 @@ let g:which_key_map.l = {
       \ }
 
 
-" t is for toggle
-let g:which_key_map.t = {
+" T is for toggle
+let g:which_key_map.T = {
       \ 'name' : '+toggle' ,
       \ 'c' : [':ColorizerToggle'        , 'colorizer'],
       \ 'e' : [':CocCommand explorer'    , 'explorer'],
@@ -180,6 +179,16 @@ let g:which_key_map.t = {
       \ 's' : [':let @/ = ""'            , 'remove search highlight'],
       \ 't' : [':FloatermToggle'         , 'terminal'],
       \ 'v' : [':Vista!!'                , 'tag viewer'],
+      \ }
+
+" t is for testing
+let g:which_key_map.t = {
+      \ 'name' : '+testing' ,
+      \ 't' : [':TestNearest'            , 'nearest or last test'],
+      \ 'f' : [':TestFile'               , 'file'],
+      \ 's' : [':TestSuite'              , 'suite'],
+      \ 'l' : [':TestLast'               , 'last'],
+      \ 'v' : [':TestVisit'              , 'visit last test file'],
       \ }
 
 " Register which key map

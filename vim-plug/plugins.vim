@@ -75,6 +75,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'joshdick/onedark.vim'
   " Multiple cursor
   Plug 'terryma/vim-multiple-cursors'
+  " Testing
+  Plug 'vim-test/vim-test'
 
 call plug#end()
 
