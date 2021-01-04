@@ -25,7 +25,15 @@
 # Online reference: https://github.com/SirVer/ultisnips/blob/master/doc/UltiSnips.txt
 
 snippet cl 
-console.log(${1:text});
+console.log(${1});
+endsnippet
+
+snippet clgreen
+console.log(\`%c \$\{${1}\}\`, 'background: #000, color: #bada55')
+endsnippet
+
+snippet clorange
+console.log(\`%c \$\{${1}\}\`, 'background: #000, color: #ffa500')
 endsnippet
 
 snippet rfct
