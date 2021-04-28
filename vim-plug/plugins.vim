@@ -49,12 +49,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'junegunn/gv.vim'
   " Terminal
   Plug 'voldikss/vim-floaterm'
-  " Clojure syntax
-  Plug 'guns/vim-clojure-static'
-  " Sexp manipulation
-  Plug 'guns/vim-sexp'
-  " Clojure REPL
-  Plug 'tpope/vim-fireplace'
+  " " Clojure syntax
+  " Plug 'guns/vim-clojure-static'
+  " " Sexp manipulation
+  " Plug 'guns/vim-sexp'
+  " " Clojure REPL
+  " Plug 'tpope/vim-fireplace'
   " Start Screen
   Plug 'mhinz/vim-startify'
   " See what keys do like in emacs
@@ -62,13 +62,13 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Zen mode
   Plug 'junegunn/goyo.vim'
   " Making stuff
-  Plug 'neomake/neomake'
+  " Plug 'neomake/neomake'
   " Snippets
   Plug 'honza/vim-snippets'
   " Clojure repl
-  Plug 'Olical/conjure', {'tag': 'v3.4.0'}
+  " Plug 'Olical/conjure', {'tag': 'v3.4.0'}
   " Flutter hot-reload
-  Plug 'reisub0/hot-reload.vim'
+  " Plug 'reisub0/hot-reload.vim'
   " Emmet to speed up markup
   Plug 'mattn/emmet-vim'
   " Themes
